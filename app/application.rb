@@ -7,7 +7,7 @@ def call(env)
  
     t = Time.now 
     binding.pry 
-    if t.hour == 12 || 1 || 2 || 3 || 4 || 5 || 6 || 7 || 8 || 9 || 10 || 11 
+    if t.hour == 12 || 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 
       resp.write "Good Morning!"
     else
       resp.write "Good Afternoon!"
