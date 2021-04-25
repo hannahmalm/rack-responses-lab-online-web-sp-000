@@ -1,6 +1,6 @@
 #if its before noon, greet the user with "Good Morning!"
 #if its after noon, greet the user with "Good Afternoon! Getting the time may return 24 hour time. Anytime on or after 12 is the afternoon"
-
+require 'pry'
 class Application
 def call(env)
     resp = Rack::Response.new
