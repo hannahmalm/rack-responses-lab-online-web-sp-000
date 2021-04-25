@@ -6,7 +6,7 @@ def call(env)
     resp = Rack::Response.new
  
     t = Time.now 
-    binding.pry 
+    # binding.pry 
     if t.hour == 12 || 01 || 02 || 03 || 04 || 05 || 06 || 07 || 08 || 09 || 10 || 11 
       resp.write "Good Morning!"
     else
